@@ -1,4 +1,5 @@
-@import url("./Components/header/Header.css");
+@import url("./Components/main/Main.css");
+
 
 :root {
   --red : #CF0A0A;
