@@ -1,5 +1,5 @@
 import React from "react"
-import { Card } from "../card/Card";
+import { Card } from "../card";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";

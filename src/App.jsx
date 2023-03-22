@@ -1,5 +1,5 @@
 import React from "react";
-import { Main } from "./Components/main/Main";
+import { Main } from "./Components/main";
 import './App.css'
 import {Routes, Route} from "react-router-dom";
 

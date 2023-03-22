@@ -1,5 +1,5 @@
-@import url("./Components/main/Main.css");
-@import url("./Components/card/Card.css");
+@import url("./Components/main/style.css");
+@import url("./Components/card/style.css");
 
 :root {
   --red : #CF0A0A;
