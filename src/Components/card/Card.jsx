@@ -1,14 +1,22 @@
 import React from "react";
 
-export const Card = () => {
+export const Card = ({ data }) => {
     return (
         <>
-            <div className="card">
-                <img src="" alt="" />
-                <div className="title">
-                    <h3>Spider</h3>
-                </div>
-            </div>
+            {
+                (data) ? (
+                    data.map(item => {
+                        return(
+                            <div className="card">
+                                <img src={`${item.thumbnail.path}.${item.thumbnail.extension}`} alt="" />
+                                <div className="title">
+                                    <h3>{item.title}</h3>
+                                </div>
+                            </div>
+                        )
+                    })
+                ):""
+            }            
         </>
     )
 }
